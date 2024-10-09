@@ -22,7 +22,7 @@ response.unshift({
     }]
 })
 ```
-Look at the original js/menupopup.js of Zabbix UI to understand how menu items are formed and the actions when they are pressed.
+Look at the original [js/menupopup.js](https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/ui/js/menupopup.js?at=refs%2Fheads%2Frelease%2F6.0) of Zabbix UI to understand how menu items are formed and the actions when they are pressed.
 
 To work current version of module need install module [GetHostIP](https://github.com/DarkPh0eNixKrg/zabbix-module-get-host-ip) or modify **js/custom_menu popup.js**
 
