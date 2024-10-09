@@ -6,6 +6,8 @@ Written according to Zabbix official documentation [Modules](https://www.zabbix.
 
 A module for Zabbix to customazing your **Popup menu (context menu)**
 
+/screenshots/zabbix-module-custom-menupop.png
+
 To add *Name of Main menu* to top `response.unshift` or `response.push` to botom side of popupmenu
 
 Example
