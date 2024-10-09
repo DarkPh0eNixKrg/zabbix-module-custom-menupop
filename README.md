@@ -4,6 +4,7 @@ Written according to Zabbix official documentation [Modules](https://www.zabbix.
 A module for Zabbix to customazing your **Popup menu (context menu)**
 
 To work current version of module need install module [GetHostIP](https://github.com/DarkPh0eNixKrg/zabbix-module-get-host-ip) or modify **js/custom_menu popup.js**
+
 **Remove**
 ```
 function copyToClipboard(data) {
