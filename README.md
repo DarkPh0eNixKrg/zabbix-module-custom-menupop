@@ -1,2 +1,2 @@
 # zabbix-module-custom-menupop
-A Zabbix 6.0 module to customizing menupop without modification js/menupopup.js
+Written according to Zabbix official documentation [Modules] (https://www.zabbix.com/documentation/current/en/devel/modules/file_structure)
