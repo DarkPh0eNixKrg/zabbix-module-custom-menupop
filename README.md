@@ -2,6 +2,25 @@
 Written according to Zabbix official documentation [Modules](https://www.zabbix.com/documentation/current/en/devel/modules/file_structure)
 
 A module for Zabbix to customazing your **Popup menu (context menu)**
+To add *Name of Main menu* to top `response.unshift` or `response.push` to botom side of popupmenu
+Example
+```
+response.unshift({
+    label: t('Name of Main menu'),
+    items: [{...}]
+})
+```
+To add items at menu
+```
+response.unshift({
+    label: t('Name of Main menu'),
+    items: [{
+        label: t('Copy'),
+        items: [{...}]
+    }]
+})
+```
+Look at the original js/menupopup.js of Zabbix UI to understand how menu items are formed and the actions when they are pressed.
 
 To work current version of module need install module [GetHostIP](https://github.com/DarkPh0eNixKrg/zabbix-module-get-host-ip) or modify **js/custom_menu popup.js**
 
