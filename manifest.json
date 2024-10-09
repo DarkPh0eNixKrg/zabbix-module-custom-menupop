@@ -1,0 +1,10 @@
+{
+  "manifest_version": 1.0,
+  "id": "custom_menupopup",
+  "name": "Customizing menupopup.js",
+  "description": "Customazing menupopup.js",
+  "namespace": "custom_menupopup",
+  "author": "Bagaudinov Rustam",
+  "version": "1.0",
+  "url": "https://t.me/Dark_Ph0eNix"
+}
