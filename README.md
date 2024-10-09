@@ -80,3 +80,11 @@ items: [{
         label: t('IP address')
     }]
 ```
+# How to use
+1. Create a folder in your Zabbix server modules folder (by default /usr/share/zabbix/) and copy contents of this repository into that folder.
+2. Go to Administration -> General -> Modules click Scan directory and enable the module.
+3. Use **curl** or click some menu in Popupmenu Zabbix (Monitoring -> Any sections -> Host)
+
+# Author
+Bagaudinov Rustam
+[Telegram](https://t.me/DarkPh0eNix)
