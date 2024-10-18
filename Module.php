@@ -15,7 +15,8 @@ class Module extends CModule {
             if ($action_page != 'jsrpc.php'
                 && $layout != 'layout.widget'
                 && $layout != 'layout.json'
-                && $action_page != 'map.php'  
+                && $action_page != 'map.php'
+                && $action_page != 'sysmap.php'
             ) {
                 echo '<script type="text/javascript">';
                 echo file_get_contents(__DIR__.'/js/custom_menupopup.js');
