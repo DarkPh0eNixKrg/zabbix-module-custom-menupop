@@ -12,11 +12,11 @@ class Module extends CModule {
         $router = clone APP::Component()->get('router');
         $layout = $router->getLayout();
         if ($action_page) {
-            if ($action_page != 'jsrpc.php'
-                && $layout != 'layout.widget'
-                && $layout != 'layout.json'
-                && $action_page != 'map.php'
-                && $action_page != 'sysmap.php'
+            if ($action_page == 'dashboard.view'
+                || $action_page == 'problem.view'
+                || $action_page == 'host.view'
+                || $action_page == 'latest.view'
+                || $action_page == 'map.view'
             ) {
                 echo '<script type="text/javascript">';
                 echo file_get_contents(__DIR__.'/js/custom_menupopup.js');
